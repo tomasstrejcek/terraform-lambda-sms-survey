@@ -1,0 +1,10 @@
+lambda-receive-sms/node_modules/*
+lambda-send-sms/node_modules/*
+lambda-send-email/node_modules/*
+lambda-publish-facebook/node_modules/*
+.terraform
+operam.plan
+*.zip
+
+terraform.tfstate
+terraform.tfstate.backup

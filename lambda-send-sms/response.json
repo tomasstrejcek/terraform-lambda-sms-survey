@@ -1,0 +1,147 @@
+{
+  "message": "Welcome!",
+  "input": {
+    "resource": "/sms-send",
+    "path": "/sms-send",
+    "httpMethod": "POST",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "cache-control": "no-cache",
+      "CloudFront-Forwarded-Proto": "https",
+      "CloudFront-Is-Desktop-Viewer": "true",
+      "CloudFront-Is-Mobile-Viewer": "false",
+      "CloudFront-Is-SmartTV-Viewer": "false",
+      "CloudFront-Is-Tablet-Viewer": "false",
+      "CloudFront-Viewer-Country": "CZ",
+      "Content-Type": "application/json",
+      "Host": "spvm3lo98b.execute-api.ap-southeast-1.amazonaws.com",
+      "Postman-Token": "305ca523-6376-4b15-89bf-9c87f3a949b7",
+      "User-Agent": "PostmanRuntime/7.3.0",
+      "Via": "1.1 0f871875c396f962da71e0cd8deb3526.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Id": "EUS4eiFP6HGPbHaZQjivQhAHI31Rk4He4R9ke-whO5F7bORiLtniaA==",
+      "X-Amzn-Trace-Id": "Root=1-5be99dd9-489522c06cceb49049d65b28",
+      "X-Forwarded-For": "95.46.32.147, 54.182.255.16",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate"
+      ],
+      "cache-control": [
+        "no-cache"
+      ],
+      "CloudFront-Forwarded-Proto": [
+        "https"
+      ],
+      "CloudFront-Is-Desktop-Viewer": [
+        "true"
+      ],
+      "CloudFront-Is-Mobile-Viewer": [
+        "false"
+      ],
+      "CloudFront-Is-SmartTV-Viewer": [
+        "false"
+      ],
+      "CloudFront-Is-Tablet-Viewer": [
+        "false"
+      ],
+      "CloudFront-Viewer-Country": [
+        "CZ"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Host": [
+        "spvm3lo98b.execute-api.ap-southeast-1.amazonaws.com"
+      ],
+      "Postman-Token": [
+        "305ca523-6376-4b15-89bf-9c87f3a949b7"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.3.0"
+      ],
+      "Via": [
+        "1.1 0f871875c396f962da71e0cd8deb3526.cloudfront.net (CloudFront)"
+      ],
+      "X-Amz-Cf-Id": [
+        "EUS4eiFP6HGPbHaZQjivQhAHI31Rk4He4R9ke-whO5F7bORiLtniaA=="
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-5be99dd9-489522c06cceb49049d65b28"
+      ],
+      "X-Forwarded-For": [
+        "95.46.32.147, 54.182.255.16"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "izb33s",
+      "resourcePath": "/sms-send",
+      "httpMethod": "POST",
+      "extendedRequestId": "QQWaCHzISQ0FdSw=",
+      "requestTime": "12/Nov/2018:15:35:53 +0000",
+      "path": "/development/sms-send",
+      "accountId": "142920961168",
+      "protocol": "HTTP/1.1",
+      "stage": "development",
+      "domainPrefix": "spvm3lo98b",
+      "requestTimeEpoch": 1542036953842,
+      "requestId": "a425cdee-e690-11e8-8c7d-8d21527adcae",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "95.46.32.147",
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.3.0",
+        "user": null
+      },
+      "domainName": "spvm3lo98b.execute-api.ap-southeast-1.amazonaws.com",
+      "apiId": "spvm3lo98b"
+    },
+    "body": "{\n\t\"to\": \"+420723138687\"\n}",
+    "isBase64Encoded": false
+  },
+  "result": {
+    "accountSid": "ACc9b48b7e186cdf17aa947327fc888d74",
+    "apiVersion": "2010-04-01",
+    "body": "Sent from your Twilio trial account - Do you like bread?",
+    "dateCreated": "2018-11-12T15:35:56.000Z",
+    "dateUpdated": "2018-11-12T15:35:56.000Z",
+    "dateSent": null,
+    "direction": "outbound-api",
+    "errorCode": null,
+    "errorMessage": null,
+    "from": "+14089165811",
+    "messagingServiceSid": null,
+    "numMedia": "0",
+    "numSegments": "1",
+    "price": null,
+    "priceUnit": "USD",
+    "sid": "SMecb8d5e933684b91a17baf1505881acb",
+    "status": "queued",
+    "subresourceUris": {
+      "media": "/2010-04-01/Accounts/ACc9b48b7e186cdf17aa947327fc888d74/Messages/SMecb8d5e933684b91a17baf1505881acb/Media.json"
+    },
+    "to": "+420723138687",
+    "uri": "/2010-04-01/Accounts/ACc9b48b7e186cdf17aa947327fc888d74/Messages/SMecb8d5e933684b91a17baf1505881acb.json"
+  }
+}
